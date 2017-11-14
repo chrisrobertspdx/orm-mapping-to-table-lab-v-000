@@ -36,7 +36,7 @@ class Student
     @id = new_id
   end
 
-  def create(attributes)
+  def self.create(attributes)
     Student.new(attributes[:name],attributes[:grade]).save;
   end
 end
