@@ -37,6 +37,6 @@ class Student
   end
 
   def create(attributes)
-
+    Student.new(attributes[:name],attributes[:grade]).save;
   end 
 end
