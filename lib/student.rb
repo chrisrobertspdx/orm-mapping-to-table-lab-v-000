@@ -36,6 +36,4 @@ class Student
     @id = new_id
   end
 
-
-
 end
