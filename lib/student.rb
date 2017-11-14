@@ -36,4 +36,7 @@ class Student
     @id = new_id
   end
 
+  def create(attributes)
+
+  end 
 end
