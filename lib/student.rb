@@ -34,6 +34,7 @@ class Student
     new_id = DB[:conn].execute("SELECT last_insert_rowid() FROM students")[0][0]
     #binding.pry
     @id = new_id
+    self
   end
 
   def self.create(attributes)
