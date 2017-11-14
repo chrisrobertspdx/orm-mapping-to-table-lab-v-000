@@ -35,8 +35,6 @@ class Student
     Student.new(self.name,self.grade,new_id)
   end
 
-  def self.create()
 
-  end
 
 end
