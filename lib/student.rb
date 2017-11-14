@@ -33,7 +33,7 @@ class Student
     DB[:conn].execute(sql,self.name,self.grade)
     new_id = DB[:conn].execute("SELECT last_insert_rowid() FROM students")[0][0]
     #binding.pry
-    self.id = new_id
+    @id = new_id
   end
 
 
